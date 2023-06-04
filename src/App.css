@@ -1,0 +1,101 @@
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.navBar,a{
+  text-decoration: none;
+}
+.home{
+  width: 100%;
+  height:500px;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.postContainer{
+  padding: 10px;
+}
+.postContainer h1{
+  text-decoration: underline;
+}
+.postContainer,p{
+  margin: 5px;
+}
+.postDetailContainer{
+  text-align: center;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.postDetailContainer p{
+  font-size: 20px;
+}
+.postDetailContainer h1{
+  text-decoration: underline;
+  color: navy;
+}
+.pageandloadContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+}
+.pagiWrapper{
+ border-top: 1px solid gray;
+ border-bottom: 1px solid gray;
+ width: 300px;
+ padding: 5px;
+}
+.pageandloadContainer h1{
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.pageandloadContainer button{
+  margin: 25px;
+}
+.infiWrapper{
+  width: 260px;
+  
+  
+}
+.names{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  height: 240px;
+}
+.parallelContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.mutationContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+  height: 600px;
+  padding: 5px;
+}
+.postaddContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.postaddContainer label,button{
+  margin: 5px;
+}
+.fetchWrapper{
+  overflow-y: scroll;
+  height: 500px;
+}
